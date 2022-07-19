@@ -1,0 +1,9 @@
+.idea/
+
+build/
+dist/
+local-scripts/
+.env*
+node_modules/
+.parcel-cache/
+.cache/
