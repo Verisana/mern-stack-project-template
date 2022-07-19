@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "allowJs": false,
+    "checkJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dts",
+    "emitDeclarationOnly": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "importsNotUsedAsValues": "error",
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@project/frontend": ["./packages/frontend/src"],
+      "@project/backend": ["./packages/backend/src"],
+      "@project/shared": ["./packages/shared/src"],
+      "@project/contracts": ["./packages/contracts/src"]
+    }
+  },
+  "exclude": [
+    "./packages/contracts/src/**/*.ts",
+    "./packages/frontend/src/**/*.ts",
+    "./packages/backend/src/**/*.ts",
+    "./packages/shared/src/**/*.ts"
+  ]
+}
