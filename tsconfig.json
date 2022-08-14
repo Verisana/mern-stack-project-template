@@ -10,7 +10,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
 
-    "allowJs": false,
+    "allowJs": true,
     "checkJs": true,
     "declaration": true,
     "declarationMap": true,
